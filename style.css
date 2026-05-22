@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    color: #000000;
+    padding: 10px;
+    text-align: start;
+    margin-bottom: 20px;
+
+    h1{
+        margin: 0;
+        font-size: 24px;
+    }
+    h2{
+        margin: 0;
+        font-size: 18px;
+        color: gray;
+    }
+}
+
+
+.layout{
+    display: flex;
+}
+
+.sidebar{
+    width: 200px;
+    padding: 10px;
+    list-style: none;
+    font-size: 18px;
+    border-right: 2px solid #ccc;
+    margin-right: 20px;
+    height: 100vh;
+    
+    ul{
+        list-style: none;
+        padding-left: 20px;
+        margin-top: 10px;
+        color: rgb(0, 0, 0);
+
+        li{
+            margin-bottom: 10px;
+            cursor: pointer;
+
+            a{
+                    text-decoration: none;
+                    color: rgb(0, 0, 0);
+                }
+        }
+    }
+}
+
+
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card{
+    background: #fff;
+    width: 150px;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+    h3{
+        margin-top: 0;
+        font-size: 16px;
+    }
+    h6{
+        margin-top: 5px;
+        font-size: 20px;
+        color: gray;
+        padding: 0;
+        margin-bottom: 0;
+    }
+}
+
+.search{
+    margin-top: 20px;
+    padding: 0px;
+    display: flex;
+    gap: 15px;
+}
+
+.search input{
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+    tr{
+        border-bottom: 1px solid #ccc;
+        td{
+            padding: 10px;
+            text-align: left;  
+        }
+    }
+
+    th{
+            padding: 10px;
+            text-align: left;
+            background-color: #f2f2f2;
+    }
+}
