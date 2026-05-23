@@ -1,18 +1,19 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-header{
+header {
     color: #000000;
     padding: 10px;
     text-align: start;
     margin-bottom: 20px;
 
-    h1{
+    h1 {
         margin: 0;
         font-size: 24px;
     }
-    h2{
+
+    h2 {
         margin: 0;
         font-size: 18px;
         color: gray;
@@ -20,11 +21,11 @@ header{
 }
 
 
-.layout{
+.layout {
     display: flex;
 }
 
-.sidebar{
+.sidebar {
     width: 200px;
     padding: 10px;
     list-style: none;
@@ -32,28 +33,28 @@ header{
     border-right: 2px solid #ccc;
     margin-right: 20px;
     height: 100vh;
-    
-    ul{
+
+    ul {
         list-style: none;
         padding-left: 20px;
         margin-top: 10px;
         color: rgb(0, 0, 0);
 
-        li{
+        li {
             margin-bottom: 10px;
             cursor: pointer;
 
-            a{
-                    text-decoration: none;
-                    color: rgb(0, 0, 0);
-                }
+            a {
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+            }
         }
     }
 }
 
 
 
-.container{
+.container {
     margin: 0 auto;
     width: 90%;
     height: 100vh;
@@ -61,26 +62,28 @@ header{
     flex-direction: column;
 }
 
-.grid{
+.grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
-.card{
+.card {
     background: #fff;
-    width: 150px;
     max-width: 100%;
     padding: 20px;
     border-radius: 10px;
     border: 2px solid #ccc;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
 
-    h3{
+    h3 {
         margin-top: 0;
         font-size: 16px;
     }
-    h6{
+
+    h6 {
         margin-top: 5px;
         font-size: 20px;
         color: gray;
@@ -89,14 +92,20 @@ header{
     }
 }
 
-.search{
+.card_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.search {
     margin-top: 20px;
     padding: 0px;
     display: flex;
     gap: 15px;
 }
 
-.search input{
+.search input {
     flex: 1;
     padding: 10px;
     border: 2px solid #ccc;
@@ -105,22 +114,68 @@ header{
 
 }
 
-table{
-    width: 100%;
+table {
     border-collapse: collapse;
     margin-top: 20px;
 
-    tr{
+    tr {
         border-bottom: 1px solid #ccc;
-        td{
-            padding: 10px;
-            text-align: left;  
+
+        td {
+            padding: 2px;
+            text-align: left;
         }
     }
 
-    th{
-            padding: 10px;
-            text-align: left;
-            background-color: #f2f2f2;
+    th {
+        padding: 10px;
+        text-align: left;
+        background-color: #f2f2f2;
     }
+}
+
+#total {
+    color: blue;
+}
+
+#andamento {
+    color: rgb(255, 145, 0)
+}
+
+#concluido {
+    color: green;
+}
+
+#cancelado {
+    color: red;
+}
+
+#status_cancelado {
+    background-color: red;
+    border-radius: 16px;
+    padding: 8px 0px;
+    color: #fff;
+    width: 100px;
+    margin: 8px;
+    text-align: center;
+}
+
+#status_concluido {
+    background-color: rgb(91, 180, 91);
+    border-radius: 16px;
+    padding: 8px 0px;
+    color: #fff;
+    width: 100px;
+    margin: 8px;
+    text-align: center;
+}
+
+#status_andamento {
+    background-color: rgb(224, 147, 58);
+    border-radius: 16px;
+    padding: 8px 0px;
+    color: #fff;
+    width: 100px;
+    margin: 8px;
+    text-align: center;
 }
