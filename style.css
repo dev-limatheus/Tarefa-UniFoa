@@ -138,7 +138,7 @@ table {
     color: blue;
 }
 
-#andamento {
+#pendente {
     color: rgb(255, 145, 0)
 }
 
@@ -170,7 +170,7 @@ table {
     text-align: center;
 }
 
-#status_andamento {
+#status_pendente {
     background-color: rgb(224, 147, 58);
     border-radius: 16px;
     padding: 6px 0px;
