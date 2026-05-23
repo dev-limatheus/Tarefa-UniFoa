@@ -151,9 +151,9 @@ table {
 }
 
 #status_cancelado {
-    background-color: red;
+    background-color: rgb(230, 70, 70);
     border-radius: 16px;
-    padding: 8px 0px;
+    padding: 6px 0px;
     color: #fff;
     width: 100px;
     margin: 8px;
@@ -163,7 +163,7 @@ table {
 #status_concluido {
     background-color: rgb(91, 180, 91);
     border-radius: 16px;
-    padding: 8px 0px;
+    padding: 6px 0px;
     color: #fff;
     width: 100px;
     margin: 8px;
@@ -173,7 +173,7 @@ table {
 #status_andamento {
     background-color: rgb(224, 147, 58);
     border-radius: 16px;
-    padding: 8px 0px;
+    padding: 6px 0px;
     color: #fff;
     width: 100px;
     margin: 8px;
