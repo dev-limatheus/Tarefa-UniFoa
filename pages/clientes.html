@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestao de pedidos</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <header class="sidebar_header">
+          <div class="principal_name">
+            <i class="bi bi-clipboard-data-fill"></i>
+            <h1>ERP System</h1>
+          </div>
+          <h6>Gestão de Pedidos</h6>
+        </header>
+        <nav>
+          <ul>
+            <li>
+              <i class="bi bi-house-door"></i>
+              <a href="../index.html">Dashboard</a>
+            </li>
+            <li>
+              <i class="bi bi-cart"></i>
+              <a href="./pedidos.html">Pedidos</a>
+            </li>
+            <li>
+              <i class="bi bi-people"></i>
+              <a href="./clientes.html">Clientes</a>
+            </li>
+            <li>
+              <i class="bi bi-box-seam"></i>
+              <a href="#">Produtos</a>
+            </li>
+            <li>
+              <i class="bi bi-clipboard-data"></i>
+              <a href="#">Relatórios</a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <div class="container">
+        <header>
+          <h1>Gestao de pedidos</h1>
+          <h2>Gerencie seus pedidos de forma eficiente</h2>
+        </header>
+        <section id="clientes">
+          <h2 id="section_title">Clientes</h2>
+          <div>
+            <table>
+              <thead>
+                <tr>
+                  <th>ID do Cliente</th>
+                  <th>Nome</th>
+                  <th>Email</th>
+                  <th>Nascimento</th>
+                  <th>Endereço</th>
+                  <th>Ações</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Maria Santos</td>
+                  <td>mariasantos@gmail.com</td>
+                  <td>25/05/1995</td>
+                  <td>Volta redonda, RJ</td>
+                  <td>
+                    <button><i class="bi bi-pencil-square"></i></button
+                    ><button><i class="bi bi-trash"></i></button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>João Silva</td>
+                  <td>joaosilva@gmail.com</td>
+                  <td>12/11/1990</td>
+                  <td>Barra Mansa, RJ</td>
+                  <td>
+                    <button><i class="bi bi-pencil-square"></i></button
+                    ><button><i class="bi bi-trash"></i></button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Ana Oliveira</td>
+                  <td>anaoliveira@gmail.com</td>
+                  <td>03/08/1988</td>
+                  <td>Resende, RJ</td>
+                  <td>
+                    <button><i class="bi bi-pencil-square"></i></button
+                    ><button><i class="bi bi-trash"></i></button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Carlos Pereira</td>
+                  <td>carlospereira@gmail.com</td>
+                  <td>19/01/1992</td>
+                  <td>Piraí, RJ</td>
+                  <td>
+                    <button><i class="bi bi-pencil-square"></i></button
+                    ><button><i class="bi bi-trash"></i></button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Fernanda Costa</td>
+                  <td>fernandacosta@gmail.com</td>
+                  <td>07/09/1997</td>
+                  <td>Angra dos Reis, RJ</td>
+                  <td>
+                    <button><i class="bi bi-pencil-square"></i></button
+                    ><button><i class="bi bi-trash"></i></button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Pedro Almeida</td>
+                  <td>pedroalmeida@gmail.com</td>
+                  <td>28/02/1985</td>
+                  <td>Itatiaia, RJ</td>
+                  <td>
+                    <button><i class="bi bi-pencil-square"></i></button
+                    ><button><i class="bi bi-trash"></i></button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>Juliana Rocha</td>
+                  <td>julianarocha@gmail.com</td>
+                  <td>14/06/1994</td>
+                  <td>Pinheiral, RJ</td>
+                  <td>
+                    <button><i class="bi bi-pencil-square"></i></button
+                    ><button><i class="bi bi-trash"></i></button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>Lucas Martins</td>
+                  <td>lucasmartins@gmail.com</td>
+                  <td>30/10/1998</td>
+                  <td>Valença, RJ</td>
+                  <td>
+                    <button><i class="bi bi-pencil-square"></i></button
+                    ><button><i class="bi bi-trash"></i></button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
